@@ -17,7 +17,7 @@ int main()
 {
     SetSysClock(CLK_SOURCE_PLL_80MHz);
     DebugInit();
-    printf("CherryUSB CH58x DAPLink Demo \r\n");
+    // printf("CherryUSB CH58x DAPLink Demo \r\n");
     SysTick_Config(SysTick_LOAD_RELOAD_Msk);
     extern int dap_main(void);
     dap_main();
