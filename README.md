@@ -44,19 +44,11 @@ IDE:[MounRiver Studio](http://mounriver.com/download)
 
 ```
 Memory region         Used Size  Region Size  %age Used
-           FLASH:       27396 B       448 KB      5.97%
-             RAM:        6292 B        32 KB     19.20%
+           FLASH:       28056 B       448 KB      6.12%
+             RAM:        6944 B        32 KB     21.19%
    text	   data	    bss	    dec	    hex	filename
-  27224	    172	   2252	  29648	   73d0	DAPLink-CH582.elf
-```
-
-
-TODO:
-* base on RTOS
-* base on PlatformIO
-
+  27888	    168	   2256	  30312	   7668	DAPLink-CH582.elf
 
 ```
-./CherryUSB-Daplink/src/winusb.c:82:29: warning: initialization of 'const uint8_t **' {aka 'const unsigned char **'} from incompatible pointer type 'const uint8_t (*)[142]' {aka 'const unsigned char (*)[142]'} [-Wincompatible-pointer-types]
-         .comp_id_property = &WINUSB_IF0_WCIDProperties,
-```
+
+
